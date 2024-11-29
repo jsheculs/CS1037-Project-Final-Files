@@ -1,0 +1,49 @@
+/*****************************************************************************
+**
+* Filename: test_documentation.txt
+* Author: Julia Sheculski
+* Student ID: 251330607
+* Version: 1
+* Date Created: 2024/11/29
+* Last Modified: 2024/11/29
+*
+* Description:
+* The purpose of this file is to document testing results.
+*
+* Dependencies:
+*
+*
+* Compilation:
+*  gcc compress_and_decompress.c priority_queue.c write_to_files.c ptest.c -o 1
+* ./1 <FileName.txt> <CompressedFileName.huf>
+*****************************************************************************/
+
+Test 1: single.txt
+Compressed.huf content:
+Decompressed.txt content:
+
+Test 2: short.txt
+Compressed.huf content:
+Decompressed.txt content:
+
+Test 3: empty.txt
+Compressed.huf content:
+Decompressed.txt content:
+
+Test 4: pattern.txt
+Compressed.huf content:
+Decompressed.txt content:
+
+Test 5: medium.txt
+Compressed.huf content:
+Decompressed.txt content:
+
+Test 6: special_chars.txt
+Compressed.huf content:
+Decompressed.txt content:
+
+Test 7: unicode.txt
+Compressed.huf content:
+Decompressed.txt content:
+
+Test 8: Performance - 1MB text file
